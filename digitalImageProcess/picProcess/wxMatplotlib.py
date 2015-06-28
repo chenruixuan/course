@@ -7,6 +7,8 @@ import numpy as np
 import matplotlib
 
 # matplotlib采用WXAgg为后台,将matplotlib嵌入wxPython中
+# ！！！如果注释掉这一行，打包后的exe文件将无法运行。如果保留这一行，则在关闭窗口时仍然有进程在运行。
+# ！！！如何解决这个问题？
 matplotlib.use("WXAgg")
 
 from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as FigureCanvas
