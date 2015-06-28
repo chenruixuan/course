@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PosMeasure</string>
+    <string name="rescan">重新扫描</string>
+    <string name="close_wifi">关闭WiFi</string>
+    <string name="exit">退出程序</string>
+    <string name="reset">重置地图</string>
+
+    <string name="location_error">无法获取您的位置</string>
+</resources>
