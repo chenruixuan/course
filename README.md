@@ -19,3 +19,8 @@ step3 进行测试
     
 ## dataMining 数据挖掘（基于协同过滤算法的电影推荐）
     参考《集体智慧编程》第2章的算法和示例代码实现。略有改动，使用最新的数据集。使用wxPython做了一个简单的图形化界面。
+    
+## digitalImageProcess 数字图像处理
+    数字图像处理课程的一些代码。
+### picProcess
+    期末大作业。主要使用wxPython和PIL/Matplotlib/scipy，实现了几个基本的图像处理功能。个人感觉一大难点在于，如何在wxPython中直接显示（嵌入）Matplotlib处理后的图像。写这个软件参考了不少资料。
